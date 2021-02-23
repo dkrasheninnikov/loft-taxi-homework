@@ -1,0 +1,15 @@
+.menuItem {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+}
+.menuItem:hover {
+  color: #fdbf5a;
+}
+.menuItem.active {
+  color: #fdbf5a;
+}
