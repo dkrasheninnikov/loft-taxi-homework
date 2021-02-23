@@ -1,0 +1,9 @@
+.rightSide {
+  width: 66%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-color: #000;
+  background-image: url(./map.jpg);
+}

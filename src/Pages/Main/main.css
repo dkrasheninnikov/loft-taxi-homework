@@ -1,0 +1,66 @@
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  width: 100%;
+  margin-top: 33px;
+}
+form .field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 23px;
+}
+form .field .errorMessage {
+  position: absolute;
+  bottom: -14px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ff0000;
+  font-weight: 400;
+}
+form .field label {
+  font-size: 16px;
+  line-height: 21px;
+  color: #000;
+  font-weight: bold;
+}
+form .field.error label {
+  color: #ff0000;
+}
+form .field input {
+  width: 100%;
+  min-height: 39px;
+  border: none;
+  padding: 0;
+  border-bottom: 2px solid #e4e4e4;
+}
+form .field input:focus {
+  outline: none;
+}
+form .field input::placeholder {
+  color: #828282;
+  font-size: 18px;
+  line-height: 21px;
+}
+form .description {
+  margin-top: 14px;
+  text-align: right;
+}
+.cardFooter {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
+}
+.cardFooter a {
+  color: #fdbf5a;
+}

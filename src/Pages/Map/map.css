@@ -1,0 +1,6 @@
+.page.map {
+  flex-direction: column;
+}
+.page.map > img {
+  width: 100%;
+}
